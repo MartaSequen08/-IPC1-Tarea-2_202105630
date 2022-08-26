@@ -40,6 +40,7 @@ public class LoginT extends javax.swing.JFrame {
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        Ingresar.setBackground(new java.awt.Color(0, 204, 204));
         Ingresar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         Ingresar.setText("INGRESAR");
         Ingresar.addActionListener(new java.awt.event.ActionListener() {
@@ -47,7 +48,7 @@ public class LoginT extends javax.swing.JFrame {
                 IngresarActionPerformed(evt);
             }
         });
-        jPanel1.add(Ingresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 240, 100, 40));
+        jPanel1.add(Ingresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 240, 120, 40));
 
         contra.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -65,11 +66,12 @@ public class LoginT extends javax.swing.JFrame {
         jLabel3.setText("NOMBRE:");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 80, 30));
 
-        jLabel2.setFont(new java.awt.Font("Eras Bold ITC", 0, 14)); // NOI18N
+        jLabel2.setBackground(new java.awt.Color(204, 204, 204));
+        jLabel2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         jLabel2.setText("     LOGIN");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, 100, 40));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 10, 150, 50));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ipc1/tarea2/fondo gris.jpg"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\marta\\OneDrive\\Imágenes\\fondo54.jpg")); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 410, 300));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
